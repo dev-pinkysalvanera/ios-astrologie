@@ -1,0 +1,80 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "5. Verify on device, close the loop": [
+      {
+        "executionId": "618ef0f2-e003-49f0-896b-263f31a871ee",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790693743737
+      },
+      {
+        "executionId": "618ef0f2-e003-49f0-896b-263f31a871ee",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790703630762
+      },
+      {
+        "executionId": "92b9ed8a-597c-4eda-add8-9d2a59ee0e12",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790710855523
+      },
+      {
+        "executionId": "c27e820e-6c84-424c-91c3-a20c05437211",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790710958490
+      },
+      {
+        "executionId": "c27e820e-6c84-424c-91c3-a20c05437211",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790711601096
+      },
+      {
+        "executionId": "2f67e52e-3d4e-4b2d-a228-dc690cf53ce5",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790756593289
+      },
+      {
+        "executionId": "2f67e52e-3d4e-4b2d-a228-dc690cf53ce5",
+        "chatSessionId": "sess_fd490215-c8ac-4d02-8758-839e218bef32",
+        "timestamp": 1790757262154
+      }
+    ],
+    "1. Show an animated typing indicator while a reply is in flight": [
+      {
+        "executionId": "30dfa3e2-d85b-43ec-bf08-a5591a1fd4b8",
+        "chatSessionId": "sess_1dbd18ff-e28c-47f3-acef-4661b39c09ef",
+        "timestamp": 1790775694964
+      },
+      {
+        "executionId": "30dfa3e2-d85b-43ec-bf08-a5591a1fd4b8",
+        "chatSessionId": "sess_1dbd18ff-e28c-47f3-acef-4661b39c09ef",
+        "timestamp": 1790776232023
+      }
+    ],
+    "2. Add haptics for send and reply completion": [
+      {
+        "executionId": "7c586746-a110-4436-b567-a06698d68fce",
+        "chatSessionId": "sess_998bff72-0678-4705-a39a-a3d10b46dbd4",
+        "timestamp": 1790776382354
+      }
+    ],
+    "3. Give the chat screen an intentional look": [
+      {
+        "executionId": "03ae901c-550b-48e7-940e-780b9ccb82d4",
+        "chatSessionId": "sess_5492dc69-6d48-4338-929f-e9b937fd0032",
+        "timestamp": 1790779036614
+      },
+      {
+        "executionId": "03ae901c-550b-48e7-940e-780b9ccb82d4",
+        "chatSessionId": "sess_5492dc69-6d48-4338-929f-e9b937fd0032",
+        "timestamp": 1790779838936
+      }
+    ],
+    "7. Stop markdown markers showing up in replies": [
+      {
+        "executionId": "26534e5a-094e-4eaa-ac21-fd2963aa50f0",
+        "chatSessionId": "sess_b20667d8-c556-4c61-8f32-c46bc2fb9e02",
+        "timestamp": 1790780020676
+      }
+    ]
+  }
+}
