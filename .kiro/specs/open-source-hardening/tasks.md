@@ -130,7 +130,7 @@ public"), which still owns the licence, the `PRODUCTION_ENDPOINT.md` /
 
 ### Final check — Claude
 
-- [ ] 11. Rescan before going public
+- [x] 11. Rescan before going public
   - Rerun the secret scan over the working tree and the full git history
     (Gemini, Supabase, JWT, private-key and token patterns), and list every
     tracked file over 50 MB.
@@ -187,5 +187,12 @@ graph TD
   `rate_test*.py` is safe to publish. Access is enforced by the bearer token,
   RLS and the revoked grants.
 - Tasks 4 and 5 need a number from Pinky before any code is written.
+- Rescan on 2026-10-15 (Task 11), after the history was squashed to one
+  commit (`129cc5a`) and force-pushed: no secrets in that commit or the working
+  tree (Gemini, Supabase secret/access, JWT, private-key, GitHub, Slack, AWS and
+  password patterns; patterns checked against fake keys first). The
+  publishable key appears in 5 files, as expected. No tracked file over 50 MB
+  (largest: `astrologie-r5-report.gif`, 2.1 MB). No time-of-day stamps from work
+  sessions and no device-policy mention left.
 - Tasks 6–10 are Pinky's. Claude walks through each one when Pinky says "go"
   for it.
