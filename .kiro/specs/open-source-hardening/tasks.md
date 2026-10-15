@@ -32,12 +32,13 @@ public"), which still owns the licence, the `PRODUCTION_ENDPOINT.md` /
   - _Done when: `docs/media/raw/` is gone from the repo and the clips are in
     `web-portfolio/assets/astrologie/`._
 
-- [ ] 12. Check the README demo GIF
+- [x] 12. Check the README demo GIF
   - `README.md` embeds `docs/media/astrologie-demo.gif`. Confirm the file is
     there, is the clip Pinky wants, and is small enough for GitHub (under
     10 MB keeps the README quick to load).
   - _Done when: the README's GIF path resolves to the chosen file in
-    `docs/media/`._
+    `docs/media/`._ _Confirmed 2026-10-15: `astrologie-demo.gif`, 0.9 MB,
+    in the public commit; Pinky chose it._
 
 ### Server — Claude
 

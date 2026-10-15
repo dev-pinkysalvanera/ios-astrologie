@@ -77,8 +77,9 @@ this spec is the work behind that placeholder.
     on the website or in the README._
 
 - [ ] 7. Get the repo ready to go public
-  - Add a `LICENSE`. The website calls Astrologie "open-source", and right now
-    the repo has no licence, which means all rights reserved by default.
+  - No licence, on purpose (decided 2026-10-15): the repo is public so hiring
+    managers can read the code, not so others can reuse it. The site and
+    `website-intro.md` say "code on GitHub", not "open source".
   - Read through what goes public with the code: `supabase/PRODUCTION_ENDPOINT.md`
     and `overview.md` (project ref, dashboard link), `supabase/rate_test*.py`,
     `.DS_Store` at the root (not in `.gitignore`), and the untracked
@@ -88,7 +89,7 @@ this spec is the work behind that placeholder.
   - Decide whether `portfolio-weekly-executables/` and `.kiro/` stay public.
     They're a strong record of how the app was built, but they read as working
     notes.
-  - _Done when: the licence is in, the files above are kept, edited or removed
+  - _Done when: the files above are kept, edited or removed
     on purpose, and the repo is public._
 
 - [ ] 8. Publish on the website

@@ -18,8 +18,8 @@ Astrologie ↗ (link to the GitHub repo)
 
 ## Intro
 
-An open-source iOS chat app for Vedic astrology. Ask a question, and the reading
-streams in as it's written. Built in SwiftUI with MVVM, backed by a Supabase
+An iOS chat app for Vedic astrology, with its code on GitHub. Ask a question,
+and the reading streams in as it's written. Built in SwiftUI with MVVM, backed by a Supabase
 Edge Function that keeps the AI key and prompt off the device. I planned it
 week by week with written specs and built it with AI coding agents, reviewing
 every change before it went in.
@@ -66,7 +66,7 @@ Gemini API
 
 **Shorter intro**, if the card layout feels crowded:
 
-> An open-source iOS chat app for Vedic astrology, with replies streamed live
+> An iOS chat app for Vedic astrology, with replies streamed live
 > from an AI model behind a secure Supabase backend.
 
 **Swap-in cards**, if you'd rather lead with something else:
@@ -87,8 +87,8 @@ before it's committed and the rules enforced by tool settings. [D32, D33]
 
 ## Notes for you
 
-- **"Open-source"** needs a licence in the repo before the site goes live (the
-  portfolio spec's Task 7). Without one, the code is all rights reserved.
+- **Not "open source".** The repo is public so the code can be read, but it has
+  no licence on purpose (decided 2026-10-15), so the copy says "code on GitHub".
 - **Don't add "VoiceOver-tested on device"** until Week 10 Task 13 is done.
   "Accessible by Default" as written is accurate today.
 - **"250"** comes from a run on 2026-10-11 (250 passing). If you'd rather not
